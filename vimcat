@@ -89,6 +89,8 @@ if &cp
   set nocp
 endif
 
+setl syntax=$SYN
+
 let s:type = 'cterm'
 if &t_Co == 0
   let s:type = 'term'
